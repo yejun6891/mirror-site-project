@@ -46,21 +46,42 @@ export const Header = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuLink href="#research" className="px-4 py-2 text-base hover:text-accent transition-colors">
-                  교통연구
-                </NavigationMenuLink>
+                <NavigationMenuTrigger className="text-base">교통연구</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-48 gap-2 p-4">
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
+                  </ul>
+                </NavigationMenuContent>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuLink href="#research" className="px-4 py-2 text-base hover:text-accent transition-colors">
-                  물류연구
-                </NavigationMenuLink>
+                <NavigationMenuTrigger className="text-base">물류연구</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-48 gap-2 p-4">
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
+                  </ul>
+                </NavigationMenuContent>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuLink href="#contact" className="px-4 py-2 text-base hover:text-accent transition-colors">
-                  게시판
-                </NavigationMenuLink>
+                <NavigationMenuTrigger className="text-base">게시판</NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-48 gap-2 p-4">
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
+                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
+                  </ul>
+                </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
