@@ -35,52 +35,144 @@ export const Header = () => {
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-base">회사소개</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-48 gap-2 p-4">
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
-                  </ul>
+                  <div className="grid grid-cols-4 gap-8 p-6 w-[800px]">
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-foreground">회사소개</h3>
+                      <ul className="space-y-2">
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 소개</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 연구실적</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 위원회 활동</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">수상이력</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">오시는길</NavigationMenuLink></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">교통연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">물류연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">게시판</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-base">교통연구</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-48 gap-2 p-4">
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
-                  </ul>
+                  <div className="grid grid-cols-4 gap-8 p-6 w-[800px]">
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-foreground">회사소개</h3>
+                      <ul className="space-y-2">
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 소개</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 연구실적</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 위원회 활동</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">수상이력</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">오시는길</NavigationMenuLink></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">교통연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">물류연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">게시판</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-base">물류연구</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-48 gap-2 p-4">
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
-                  </ul>
+                  <div className="grid grid-cols-4 gap-8 p-6 w-[800px]">
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-foreground">회사소개</h3>
+                      <ul className="space-y-2">
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 소개</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 연구실적</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 위원회 활동</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">수상이력</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">오시는길</NavigationMenuLink></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">교통연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">물류연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">게시판</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-base">게시판</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid w-48 gap-2 p-4">
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 소개</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 연구실적</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">CEO 위원회 활동</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">수상이력</NavigationMenuLink></li>
-                    <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md">오시는길</NavigationMenuLink></li>
-                  </ul>
+                  <div className="grid grid-cols-4 gap-8 p-6 w-[800px]">
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-foreground">회사소개</h3>
+                      <ul className="space-y-2">
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 소개</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 연구실적</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">CEO 위원회 활동</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">수상이력</NavigationMenuLink></li>
+                        <li><NavigationMenuLink className="block p-2 hover:bg-muted rounded-md text-sm">오시는길</NavigationMenuLink></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">교통연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">물류연구</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-sm mb-3 text-muted-foreground">게시판</h3>
+                      <ul className="space-y-2">
+                        <li className="text-sm text-muted-foreground p-2">준비중</li>
+                      </ul>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
