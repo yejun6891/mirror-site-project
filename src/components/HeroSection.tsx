@@ -5,13 +5,13 @@ import heroContainers from "@/assets/hero-containers.jpg";
 const slides = [
   {
     image: heroTruck,
-    title: "Strategy Institute of Transport and Logistics",
-    description: "교통물류전략연구소는 지속 가능하고 효율적인 교통 및 물류 시스템의 구축을 통해 혁신적이고 글로벌한 미래 물류를 선도하는 센터로 자리매김하며, 산업과 사회에 지속적인 가치를 제공합니다.",
+    title: "Mobility for All. No Limits. No Barriers.",
+    description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만들자.",
   },
   {
     image: heroContainers,
-    title: "Strategy Institute of Transport and Logistics",
-    description: "교통물류전략연구소는 지속 가능하고 효율적인 교통 및 물류 시스템의 구축을 통해 혁신적이고 글로벌한 미래 물류를 선도하는 센터로 자리매김하며, 산업과 사회에 지속적인 가치를 제공합니다.",
+    title: "Future Mobility Policy Research Institute",
+    description: "미래모빌리티정책연구소는 스마트 모빌리티 기술 개발과 연구를 통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
   },
 ];
 
