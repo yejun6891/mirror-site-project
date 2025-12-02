@@ -19,11 +19,11 @@ export const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <div className="flex items-center gap-2">
-            <div className="text-3xl font-bold text-primary">TL</div>
+            <div className="text-3xl font-bold text-primary">FM</div>
             <div className="h-8 w-px bg-primary/30" />
             <div className="text-base leading-tight text-foreground">
-              <div className="font-bold">교통물류전략연구소</div>
-              <div className="text-xs text-muted-foreground">Strategy Institute of Transport and Logistics</div>
+              <div className="font-bold">미래모빌리티정책연구소</div>
+              <div className="text-xs text-muted-foreground">Future Mobility Policy Research Institute</div>
             </div>
           </div>
         </a>

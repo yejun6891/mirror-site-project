@@ -32,10 +32,10 @@ export const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="text-sm text-primary-foreground/80 space-y-2">
             <p>
-              TLI 교통물류전략연구소 | 인천광역시 연수구 송도과학로 70 송도 AT센터 2016호
+              미래모빌리티정책연구소 | 부산광역시 해운대구 센텀서로 30 케이엔엔타워 26층
             </p>
             <p>
-              대표이사 : 이영숙 | +82-10-9596-5919 | tli20231110@gmail.com
+              대표 : 정덕탁 박사 | +82-10-8649-6891 | spulse@naver.com
             </p>
           </div>
           <p className="text-primary-foreground/60 text-sm mt-6">
