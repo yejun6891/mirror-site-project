@@ -35,7 +35,7 @@ export const Footer = () => {
               미래모빌리티정책연구소 | 부산광역시 해운대구 센텀서로 30 케이엔엔타워 26층
             </p>
             <p>
-              대표 : 정덕탁 박사 | +82-10-8649-6891 | spulse@naver.com
+              대표 : 정연탁 박사 | +82-10-8649-6891 | spulse@naver.com
             </p>
           </div>
           <p className="text-primary-foreground/60 text-sm mt-6">
