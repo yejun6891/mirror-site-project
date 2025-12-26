@@ -11,8 +11,8 @@ export const CeoIntro = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">대표 소개</h2>
         </div>
 
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             {/* CEO Image */}
             <div className="flex flex-col items-center">
               <div className="relative">
@@ -50,13 +50,13 @@ export const CeoIntro = () => {
                 <img 
                   src={certificate} 
                   alt="지방행정의 달인 인증패" 
-                  className="w-48 h-auto rounded-lg shadow-xl border border-border mx-auto"
+                  className="w-56 h-auto rounded-lg shadow-xl border border-border mx-auto"
                 />
               </div>
             </div>
 
             {/* CEO Info */}
-            <div className="space-y-6">
+            <div className="lg:col-span-2 space-y-6">
               {/* Slogan */}
               <div className="bg-muted/30 p-6 rounded-xl border-l-4 border-primary">
                 <div className="flex items-start gap-3">
