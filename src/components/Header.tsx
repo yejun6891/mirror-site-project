@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <img src={eumLogo} alt="E-UM Mobility Innovation Institute" className="h-16 w-auto" />
+          <img src={eumLogo} alt="E-UM Mobility Innovation Institute" className="h-20 w-auto" />
         </a>
 
         {/* Contact Button */}
