@@ -140,48 +140,51 @@ export const CeoIntro = () => {
                 </div>
               </div>
 
-              {/* Awards */}
-              <div className="bg-background p-6 rounded-xl border border-border">
-                <div className="flex items-center gap-3 mb-4">
-                  <Award className="w-6 h-6 text-primary" />
-                  <h3 className="text-xl font-bold text-foreground">수상 내역</h3>
+              {/* Awards with Certificate Image */}
+              <div className="flex gap-6 items-start">
+                {/* Certificate Image - Left side */}
+                <div className="hidden md:block flex-shrink-0">
+                  <img 
+                    src={certificate} 
+                    alt="지방행정의 달인 인증패" 
+                    className="w-40 h-auto rounded-lg shadow-xl border border-border"
+                  />
                 </div>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2018. 12</span>
-                    <span>국가사회발전 기여 (국무총리 표창 제201203호)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2018. 12</span>
-                    <span>제8회 지방행정의 달인 (지방행정의 달인 2018-2)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2017. 12</span>
-                    <span>종합감사 수범공무원 (부산광역시장 표창 제6491호)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2016. 09</span>
-                    <span>제21회 지방정보통신 우수사례 (행정자치부장관 상장 제116-1114)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2014. 12</span>
-                    <span>정부모범공무원 제83968호</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[80px]">2010. 12</span>
-                    <span>2010 ITS세계대회 유공 (부산광역시장 표창 제5807호)</span>
-                  </li>
-                </ul>
+                
+                {/* Awards Box */}
+                <div className="bg-background p-6 rounded-xl border border-border flex-1">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Award className="w-6 h-6 text-primary" />
+                    <h3 className="text-xl font-bold text-foreground">수상 내역</h3>
+                  </div>
+                  <ul className="space-y-3 text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2018. 12</span>
+                      <span>국가사회발전 기여 (국무총리 표창 제201203호)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2018. 12</span>
+                      <span>제8회 지방행정의 달인 (지방행정의 달인 2018-2)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2017. 12</span>
+                      <span>종합감사 수범공무원 (부산광역시장 표창 제6491호)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2016. 09</span>
+                      <span>제21회 지방정보통신 우수사례 (행정자치부장관 상장 제116-1114)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2014. 12</span>
+                      <span>정부모범공무원 제83968호</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary font-medium min-w-[80px]">2010. 12</span>
+                      <span>2010 ITS세계대회 유공 (부산광역시장 표창 제5807호)</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-
-            {/* Certificate Image - Outside awards box */}
-            <div className="hidden lg:flex lg:col-span-2 justify-center mt-8">
-              <img 
-                src={certificate} 
-                alt="지방행정의 달인 인증패" 
-                className="w-64 h-auto rounded-lg shadow-xl border border-border"
-              />
             </div>
           </div>
         </div>
