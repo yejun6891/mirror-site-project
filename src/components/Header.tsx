@@ -7,7 +7,7 @@ export const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <div className="flex items-center gap-2">
-            <div className="text-3xl font-bold text-primary">FM</div>
+            <div className="text-3xl font-bold text-primary">E-UM</div>
             <div className="h-8 w-px bg-primary/30" />
             <div className="text-base leading-tight text-foreground">
               <div className="font-bold">이음모빌리티혁신연구소</div>
