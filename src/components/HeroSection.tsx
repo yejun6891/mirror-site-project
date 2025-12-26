@@ -11,7 +11,8 @@ const slides = [
   {
     image: heroSlide2,
     title: "E-UM Mobility Innovation Research Institute",
-    description: "이음모빌리티혁신연구소는 스마트 모빌리티 기술 개발과 연구를 통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
+    description: "이음모빌리티혁신연구소는 스마트 모빌리티 기술 개발과 연구를 
+      통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
   },
 ];
 
