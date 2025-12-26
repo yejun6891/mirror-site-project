@@ -22,8 +22,8 @@ export const Header = () => {
             <div className="text-3xl font-bold text-primary">FM</div>
             <div className="h-8 w-px bg-primary/30" />
             <div className="text-base leading-tight text-foreground">
-              <div className="font-bold">미래모빌리티정책연구소</div>
-              <div className="text-xs text-muted-foreground">Future Mobility Policy Research Institute</div>
+              <div className="font-bold">이음모빌리티혁신연구소</div>
+              <div className="text-xs text-muted-foreground">E-UM Mobility Innovation Research Institute</div>
             </div>
           </div>
         </a>

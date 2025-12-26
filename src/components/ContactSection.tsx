@@ -20,14 +20,14 @@ export const ContactSection = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="미래모빌리티정책연구소 위치"
+              title="이음모빌리티혁신연구소 위치"
             ></iframe>
           </div>
 
           {/* Contact Info */}
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-foreground mb-6">
-              미래모빌리티정책연구소
+              이음모빌리티혁신연구소
             </h3>
             
             <div className="space-y-4">
@@ -36,7 +36,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="font-medium text-foreground">주소</p>
                   <p className="text-muted-foreground">
-                    부산광역시 해운대구 센텀서로 30 케이엔엔타워 26층, 미래모빌리티정책연구소
+                    부산광역시 해운대구 센텀서로 30 케이엔엔타워 26층, 이음모빌리티혁신연구소
                   </p>
                 </div>
               </div>
