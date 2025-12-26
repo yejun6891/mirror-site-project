@@ -78,7 +78,7 @@ export const CeoIntro = () => {
                     <span>부산광역시(교통기획, 교통운영, 교통정보서비스센터, 공공교통정책과)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[90px]">2007~2022</span>
+                    <span className="text-primary font-medium min-w-[90px]">2022~2025</span>
                     <span>울산광역시(스마트도시과, 스마트모빌리티팀장)</span>
                   </li>
                 </ul>
@@ -92,8 +92,8 @@ export const CeoIntro = () => {
                 </div>
                 <div className="space-y-4">
                   <div>
-                    <p className="text-sm font-medium text-primary mb-2">現</p>
-                    <ul className="space-y-2 text-muted-foreground text-sm">
+                    <p className="font-medium text-primary mb-2">現</p>
+                    <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <span className="text-primary">•</span>
                         <span>대한교통학회, 대한토목학회, 한국ITS학회, 한국도로학회 정회원</span>
@@ -109,8 +109,8 @@ export const CeoIntro = () => {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-muted-foreground mb-2">前</p>
-                    <ul className="space-y-2 text-muted-foreground text-sm">
+                    <p className="font-medium text-muted-foreground mb-2">前</p>
+                    <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <span className="text-muted-foreground">•</span>
                         <span>울산경남지역혁신플랫폼 스마트공동체사업단 산학협력위원</span>
@@ -142,30 +142,30 @@ export const CeoIntro = () => {
                   <Award className="w-6 h-6 text-primary" />
                   <h3 className="text-xl font-bold text-foreground">수상 내역</h3>
                 </div>
-                <ul className="space-y-3 text-muted-foreground text-sm">
+                <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[70px]">2018.12</span>
-                    <span>국가사회발전 기여 (국무총리 표창)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[70px]">2018.12</span>
-                    <span>제8회 지방행정의 달인</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[70px]">2017.12</span>
-                    <span>종합감사 수범공무원 (부산광역시장 표창)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[70px]">2016.09</span>
-                    <span>제21회 지방정보통신 우수사례 경진대회 (행정자치부장관 상장)</span>
+                    <span className="text-primary font-medium min-w-[70px]">2010.12</span>
+                    <span>2010 ITS세계대회 유공 (부산광역시장 표창 제5807호)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary font-medium min-w-[70px]">2014.12</span>
-                    <span>공무원 정기포상 (정부모범공무원)</span>
+                    <span>정부모범공무원 제83968호</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-primary font-medium min-w-[70px]">2010.12</span>
-                    <span>2010 ITS세계대회 유공 (부산광역시장 표창)</span>
+                    <span className="text-primary font-medium min-w-[70px]">2016.09</span>
+                    <span>제21회 지방정보통신 우수사례 경진대회 (행정자치부장관 상장 제116-1114)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-medium min-w-[70px]">2017.12</span>
+                    <span>종합감사 수범공무원 (부산광역시장 표창 제6491호)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-medium min-w-[70px]">2018.12</span>
+                    <span>제8회 지방행정의 달인 (지방행정의 달인 2018-2)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary font-medium min-w-[70px]">2018.12</span>
+                    <span>국가사회발전 기여 (국무총리 표창 제201203호)</span>
                   </li>
                 </ul>
               </div>
