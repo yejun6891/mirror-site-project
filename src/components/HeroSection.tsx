@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
-import heroTruck from "@/assets/hero-truck.jpg";
-import heroContainers from "@/assets/hero-containers.jpg";
+import heroSlide1 from "@/assets/hero-slide-1.png";
+import heroSlide2 from "@/assets/hero-slide-2.png";
 
 const slides = [
   {
-    image: heroTruck,
+    image: heroSlide1,
     title: "Mobility for All. No Limits. No Barriers.",
     description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만들자.",
   },
   {
-    image: heroContainers,
+    image: heroSlide2,
     title: "E-UM Mobility Innovation Research Institute",
     description: "이음모빌리티혁신연구소는 스마트 모빌리티 기술 개발과 연구를 통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
   },
