@@ -24,7 +24,7 @@ export const CeoIntro = () => {
                   />
                 </div>
                 <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-6 py-2 rounded-full font-bold shadow-lg whitespace-nowrap">
-                  정연탁 박사
+                  정연탁 박사님
                 </div>
               </div>
               <div className="mt-8 text-center space-y-1">
