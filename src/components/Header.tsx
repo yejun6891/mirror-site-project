@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import eumLogo from "@/assets/eum-logo.png";
+import eumLogo from "@/assets/smiiLogo.png";
 
 export const Header = () => {
   return (
