@@ -29,7 +29,7 @@ export const CeoIntro = () => {
               </div>
               <div className="mt-8 text-center space-y-1">
                 <p className="text-foreground font-semibold">Ph.D Jeong, Yeon Tak</p>
-                <p className="text-muted-foreground">이음모빌리티혁신연구소 대표</p>
+                <p className="text-muted-foreground">스마트모빌리티혁신연구소 대표</p>
               </div>
               
               {/* Degree & Expertise */}

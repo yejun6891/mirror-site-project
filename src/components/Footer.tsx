@@ -32,7 +32,7 @@ export const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="text-sm text-primary-foreground/80 space-y-2">
             <p>
-              이음모빌리티혁신연구소 | 부산광역시 해운대구 센텀서로 30 케이엔엔타워 26층
+              스마트모빌리티혁신연구소 | 부산광역시 해운대구 APEC로 17 (우동 센텀리더스마크) 21층 2103호
             </p>
             <p>
               대표 : 정연탁 박사 | +82-10-8649-6891 | spulse@naver.com
