@@ -9,7 +9,7 @@ export const Header = () => {
         <a href="/" className="flex items-center gap-3">
           <img src={eumLogo} alt="E-UM Logo" style={{ height: '80px' }} className="w-auto" />
           <div className="flex flex-col">
-            <span className="text-lg font-bold text-foreground">이음모빌리티혁신연구소라개</span>
+            <span className="text-lg font-bold text-foreground">이음모빌리티혁신연구소</span>
             <span className="text-xs text-muted-foreground">E-UM Mobility Innovation Institute</span>
           </div>
         </a>
