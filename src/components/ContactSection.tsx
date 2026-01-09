@@ -13,7 +13,7 @@ export const ContactSection = () => {
           {/* Map */}
           <div className="rounded-lg overflow-hidden h-[400px] border">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.5807698!2d129.12888!3d35.16937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb2f8c7dd9c9%3A0x3e8d7f5d5d5d5d5d!2z67aA7IKw6rSR7Jet7IucIOyVoOyatOuMgOq1rCDshLzthoTshJzroZwgMzA!5e0!3m2!1sko!2skr!4v1234567890123!5m2!1sko!2skr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.625268950036!2d129.12979967728995!3d35.16596527275805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c796ffda13%3A0xe97d24f278635b12!2z67aA7IKw6rSR7Jet7IucIO2VtOyatOuMgOq1rCBBUEVD66GcIDE3!5e0!3m2!1sko!2skr!4v1767918479383!5m2!1sko!2skr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
