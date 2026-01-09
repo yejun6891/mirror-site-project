@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import eumLogo from "@/assets/smiiLogo.png";
+import smiiLogo from "@/assets/smiiLogo.png";
 
 export const Header = () => {
   return (
@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="container mx-auto flex items-center justify-between px-4" style={{ height: '110px' }}>
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
-          <img src={eumLogo} alt="E-UM Logo" style={{ height: '80px' }} className="w-auto" />
+          <img src={smiiLogo} alt="E-UM Logo" style={{ height: '200px',marginTop:'12px' }} className="w-auto" />
           <div className="flex flex-col">
             <span className="text-lg font-bold text-foreground">스마트모빌리티혁신연구소</span>
             <span className="text-xs text-muted-foreground">Smart Mobility Innovation Institute</span>
