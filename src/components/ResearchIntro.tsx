@@ -1,7 +1,7 @@
 const researchAreas = [
   {
     title: "스마트 모빌리티 기술 개발 및 연구",
-    description: "자율주행, 커넥티드카, MaaS 등 미래 모빌리티 기술 연구",
+    description: "자율주행, DRT, MaaS 등 미래 모빌리티 기술 연구",
   },
   {
     title: "무장애 이동 환경 연구 및 자문",
@@ -32,9 +32,10 @@ export const ResearchIntro = () => {
         <div className="text-center mb-16">
           <p className="text-accent text-sm font-medium mb-2 uppercase tracking-wider">Research Areas</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">연구분야</h2>
-          <p className="mt-6 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-6 text-foreground font-semibold max-w-2xl mx-auto">
+
             Mobility for All. No Limits. No Barriers.<br />
-            모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만듭니다
+            모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만듭니다.
           </p>
         </div>
 
@@ -52,9 +53,10 @@ export const ResearchIntro = () => {
               <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {area.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                {area.description}
-              </p>
+              <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
+  {area.description}
+</p>
+
             </div>
           ))}
         </div>

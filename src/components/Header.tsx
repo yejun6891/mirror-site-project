@@ -8,16 +8,20 @@ export const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3">
           <img src={smiiLogo} alt="E-UM Logo" style={{ height: '200px',marginTop:'12px' }} className="w-auto" />
-          <div className="flex flex-col">
-            <span className="text-lg font-bold text-foreground">스마트모빌리티혁신연구소</span>
-            <span className="text-xs text-muted-foreground">Smart Mobility Innovation Institute</span>
-          </div>
+          <div className="flex flex-col w-[300px] leading-tight">
+  <span className="block w-full text-lg font-bold text-foreground">
+    스마트모빌리티혁신연구소
+  </span>
+  <span className="block w-full text-sm text-muted-foreground">
+    Smart Mobility Innovation Institute
+  </span>
+</div>
+
+
+
         </a>
 
-        {/* Contact Button */}
-        <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-          온라인 문의
-        </Button>
+        
       </div>
     </header>
   );
