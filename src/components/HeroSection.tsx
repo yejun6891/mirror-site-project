@@ -5,13 +5,13 @@ import heroSlide2 from "@/assets/hero-slide-2.png";
 const slides = [
   {
     image: heroSlide1,
-    title: "Mobility for All. No Limits. No Barriers.",
-    description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만들자.",
+    title: "Smart Mobility Innovation Institute",
+    description: "스마트모빌리티혁신연구소는 스마트 모빌리티 기술 개발과 연구를 통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
   },
   {
     image: heroSlide2,
-    title: "Smart Mobility Innovation Research Institute",
-    description: "스마트모빌리티혁신연구소는 스마트 모빌리티 기술 개발과 연구를 통해 모두를 위한 이동권을 실현하고, 사회적 가치를 창출합니다.",
+    title: "Mobility for All. No Limits. No Barriers.",
+    description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만들자.",
   },
 ];
 
@@ -21,7 +21,7 @@ export const HeroSection = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(timer);
   }, []);
@@ -41,9 +41,10 @@ export const HeroSection = () => {
           />
           <div className="absolute inset-0 bg-primary/50" />
           <div className="relative container mx-auto h-full flex flex-col items-center justify-center text-center px-4">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 max-w-4xl">
-              {slide.title}
-            </h1>
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 whitespace-nowrap">
+  {slide.title}
+</h1>
+
             <p className="text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed">
               {slide.description}
             </p>
