@@ -32,11 +32,7 @@ export const ResearchIntro = () => {
         <div className="text-center mb-16">
           <p className="text-accent text-sm font-medium mb-2 uppercase tracking-wider">Research Areas</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">연구분야</h2>
-          <p className="mt-6 text-foreground font-semibold max-w-2xl mx-auto">
-
-            Mobility for All. No Limits. No Barriers.<br />
-            모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만듭니다.
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

@@ -11,7 +11,7 @@ const slides = [
   {
     image: heroSlide2,
     title: "Mobility for All. No Limits. No Barriers.",
-    description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만들자.",
+    description: "모든 사람이, 어떠한 제약 없이, 자유롭고 평등하게 이동할 수 있는 세상을 만듭니다.",
   },
 ];
 
