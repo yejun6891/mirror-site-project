@@ -57,9 +57,7 @@ export const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground mt-8 px-8 py-6 text-base">
-              온라인 문의
-            </Button>
+            
           </div>
         </div>
       </div>
